@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=.75in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+
+% Formatting for sections
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+
+% Command for the separator line
+\newcommand{\separator}{\noindent\makebox[\linewidth]{\rule{\textwidth}{0.5pt}}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Joseph Anthony Bosco IV} \\
+    \vspace{0.2cm}
+    NLP \& Predictive Analytics Computer Scientist \\
+    \vspace{0.2cm}
+    \href{https://github.com/JackBosco}{github.com/JackBosco} \\
+    \href{https://linkedin.com/in/jackbosco}{linkedin.com/in/jackbosco} \\
+    \href{mailto:jackbosco@gmail.com}{jackbosco007@gmail.com} \\
+\end{center}
+
+\input{education.tex}
+\input{languages_skills.tex}
+\input{research.tex}
+\input{teaching}
+\input{open_source.tex}
+\input{publications.tex}
+\input{projects.tex}
+\input{extracurriculars.tex}
+
+\end{document}
